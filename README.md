@@ -1,6 +1,22 @@
 
 ![Alt text](https://github.com/Sayyed-rehan/Redux-toolkit/blob/main/redux-workflow.png)
 
+▶useSelector is invoked:
+
+  This hook is used to extract a specific slice of state from the Redux store.
+
+  Locate the desired slice by defining a selector function that queries the state within that slice.
+
+  Access the initial or current state of the target slice through this process.
+
+▶useDispatch is invoked:
+
+  This hook is used to dispatch actions to the Redux store.
+
+  Identify the slice's associated actions, reducers, or business logic.
+
+  Dispatch the relevant actions to update the state of the specific slice.
+
 
 # React + Vite
 
